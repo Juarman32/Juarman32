@@ -1,28 +1,21 @@
-<div align="center">
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=JUARMAN;Sys+Admin+%7C+Ciberseguridad;Automatizaci%C3%B3n+%7C+Self-Hosting;Vibe+Coding+Enjoyer+%F0%9F%8E%B8" alt="Typing SVG" />
+</p>
 
-```
-   ██╗██╗   ██╗ █████╗ ██████╗ ███╗   ███╗ █████╗ ███╗   ██╗
-   ██║██║   ██║██╔══██╗██╔══██╗████╗ ████║██╔══██╗████╗  ██║
-   ██║██║   ██║███████║██████╔╝██╔████╔██║███████║██╔██╗ ██║
-  ██╔╝██║   ██║██╔══██║██╔══██╗██║╚██╔╝██║██╔══██║██║╚██╗██║
-  ██╔╝ ╚██████╔╝██║  ██║██║  ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║
-  ╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
-</div>
+<p align="center">
+  <samp>Barcelona 🇪🇸 · Canary Islands 🌴</samp>
+</p>
 
-<br>
-
-### Sys Admin · Ciberseguridad · Automatización · Infraestructura Self-Hosted
-
-Barcelona 🇪🇸 · Canary Islands 🌴
-
-[![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)](https://www.proxmox.com/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
-[![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)](https://nginx.org)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
-[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
-[![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://rust-lang.org)
+<p align="center">
+  <a href="https://www.proxmox.com/"><img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" /></a>
+  <a href="https://docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /></a>
+  <a href="https://nginx.org"><img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" /></a>
+  <a href="https://kernel.org"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /></a>
+  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /></a>
+  <a href="https://typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" /></a>
+  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" /></a>
+  <a href="https://rust-lang.org"><img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" /></a>
+</p>
 
 ---
 
@@ -30,7 +23,7 @@ Barcelona 🇪🇸 · Canary Islands 🌴
 
 > *"No describas lo que harías. Hazlo. Si falla, reconstrúyelo desde cero. Si funciona, que sea limpio, rápido y bonito."*
 
-Soy un **Sys Admin en formación** obsesionado con la automatización, la infraestructura self-hosted y la ciberseguridad. Creo en el **modo YOLO**: máxima autonomía, mínima fricción. Mis proyectos no se planean eternamente — se construyen, se rompen, se arreglan y se despliegan. 
+Soy un **Sys Admin en formación** obsesionado con la automatización, la infraestructura self-hosted y la ciberseguridad. Creo en el **modo YOLO**: máxima autonomía, mínima fricción. Mis proyectos no se planean eternamente — se construyen, se rompen, se arreglan y se despliegan.
 
 ### 🎸 Vibe Coding Enjoyer
 
@@ -38,9 +31,10 @@ Soy un firme defensor del **vibe coding**. ¿Documentación? La justa. ¿Planifi
 
 > *"El 90% de mis commits son `fix: lol`, `feat: vibes`, y `chore: esto no debería funcionar pero funciona`. El otro 10% son reverts de los primeros."*
 
-Si el código compila a la primera, desconfío. Si tuve que hacer `git reset --hard` 3 veces antes del PR final, entonces sé que el proyecto va por buen camino. Mis variables se llaman `cosa`, `cosita`, y `laBuena` — y si alguien pregunta, son "nombres semánticos contextuales".
+Si el código compila a la primera, desconfío. Si tuve que hacer `git reset --hard` 3 veces antes del PR final, entonces sé que el proyecto va por buen camino.
 
 **Principios del Vibe Coding según juarman:**
+
 - 🚀 `git push --force` no es un bug, es un estilo de vida
 - 🎯 Si funciona, no lo toques... demasiado
 - 🧪 Testear en producción es la única forma de saber si realmente funciona
@@ -53,177 +47,140 @@ Mi laboratorio es un **Proxmox VE** donde virtualizo mi propio ecosistema: conte
 
 ## 🏗️ Infraestructura
 
-<table>
-<tr>
-<td width="50%">
-
 ### 🖥️ Proxmox VE — `zanarkand`
-> Hipervisor principal · 192.168.88.10
 
-| ID | Hostname | Rol | Specs |
+> Hipervisor principal · `192.168.88.10`
+
+| ID | Hostname | Rol | Stack |
 |---|---|---|---|
-| **CT 100** | hermes-agent | IA + Automatización | Docker |
-| **CT 103** | sapientia-osint | OSINT Platform | OSIRIS, SpiderFoot |
-| **CT 110** | bitwarden-vault | Password Manager | Vaultwarden + SSL |
-| **VM 200** | cachyos-gaming | Gaming + GPU | 8GB, GPU Passthrough |
+| **CT 100** | `hermes-agent` | IA + Automatización | Docker |
+| **CT 103** | `sapientia-osint` | OSINT Platform | OSIRIS, SpiderFoot |
+| **CT 110** | `bitwarden-vault` | Password Manager | Vaultwarden, Nginx, SSL |
+| **VM 200** | `cachyos-gaming` | Gaming + GPU | 8GB, GPU Passthrough |
 
-</td>
-<td width="50%">
-
-### 🔧 Stack Principal
+### 🔧 Stack
 
 ```
-┌─────────────────────────────────┐
-│         Nginx Reverse Proxy      │
-│      SSL · Fail2ban · Rate Limit │
-├─────────────────────────────────┤
-│  ┌──────────┐  ┌──────────────┐  │
-│  │ Docker   │  │  Proxmox LXC │  │
-│  │ Compose  │  │  Containers  │  │
-│  └──────────┘  └──────────────┘  │
-├─────────────────────────────────┤
-│  ┌──────────┐  ┌──────────────┐  │
-│  │ Hermes   │  │  Kanban      │  │
-│  │ Agent    │  │  Multi-Agent │  │
-│  └──────────┘  └──────────────┘  │
-├─────────────────────────────────┤
-│  Python · TS · React · Rust     │
-└─────────────────────────────────┘
+Nginx Reverse Proxy (SSL · Fail2ban · Rate Limit)
+├── Docker Compose
+├── Proxmox LXC Containers
+├── Hermes Agent (IA + Multi-Agente Kanban)
+└── Python · TypeScript · React · Rust
 ```
-
-</td>
-</tr>
-</table>
 
 ---
 
-## 🚀 Proyectos Destacados
+## 🚀 Proyectos
 
 ### 🕵️ Sapientia OSINT
-[![Status](https://img.shields.io/badge/Status-Active-00E5FF?style=flat-square)](https://github.com/Juarman32)
-[![Stack](https://img.shields.io/badge/Stack-Docker%20%7C%20Python%20%7C%20Nginx-D4AF37?style=flat-square)](https://github.com/Juarman32)
 
-Plataforma de inteligencia de fuentes abiertas auto-hospedada. Integra **SpiderFoot**, **OSIRIS**, y APIs de inteligencia para recolección y análisis de datos OSINT. Desplegada en CT 103 con acceso controlado.
+![Status](https://img.shields.io/badge/Status-Active-00E5FF?style=flat-square)
+![Stack](https://img.shields.io/badge/Stack-Docker_|_Python_|_Nginx-D4AF37?style=flat-square)
+
+Plataforma de inteligencia de fuentes abiertas auto-hospedada. Integra **SpiderFoot**, **OSIRIS**, y APIs OSINT para recolección y análisis de datos.
 
 ```
-osiris/      — Framework OSINT principal
-spiderfoot/  — Automatización de reconocimiento
-tools/       — API OSINT interna
+osiris/      → Framework OSINT principal
+spiderfoot/  → Automatización de reconocimiento
+tools/       → API OSINT interna
 ```
 
 ---
 
 ### 📊 ShiftPlanner
-[![Status](https://img.shields.io/badge/Status-Completed-00E5FF?style=flat-square)](https://github.com/Juarman32)
-[![Stack](https://img.shields.io/badge/Stack-Vite%20%7C%20React%2019%20%7C%20sql.js%20%7C%20Zustand-D4AF37?style=flat-square)](https://github.com/Juarman32)
 
-Aplicación web de gestión de cuadrantes laborales con turnos rotativos, vacaciones, bajas, festivos y reglas complejas de planificación. Funciona completamente en el navegador sin backend — **sql.js + IndexedDB** para persistencia local.
+![Status](https://img.shields.io/badge/Status-Completed-00E5FF?style=flat-square)
+![Stack](https://img.shields.io/badge/Stack-Vite_|_React_19_|_sql.js_|_Zustand-D4AF37?style=flat-square)
+
+Aplicación web de gestión de cuadrantes laborales con turnos rotativos, vacaciones, bajas, festivos y reglas complejas de planificación. 100% client-side — **sql.js + IndexedDB** sin backend.
 
 - ✅ 24/24 tests pasando
 - ✅ Build de producción ~472KB
-- ✅ Modo auto-contenido (offline-first)
+- ✅ Modo offline-first auto-contenido
 
 ---
 
 ### 🌐 Nexus Feed
-[![Status](https://img.shields.io/badge/Status-In_Progress-00E5FF?style=flat-square)](https://github.com/Juarman32)
-[![Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20Framer%20Motion%20%7C%20TypeScript-D4AF37?style=flat-square)](https://github.com/Juarman32)
 
-Proyecto web con diseño **cyberpunk glassmorphism** — estética oscura, neones, scanlines, mesh backgrounds. Server Components por defecto, animaciones con Framer Motion.
+![Status](https://img.shields.io/badge/Status-In_Progress-00E5FF?style=flat-square)
+![Stack](https://img.shields.io/badge/Stack-Next.js_|_Framer_Motion_|_TypeScript-D4AF37?style=flat-square)
+
+Proyecto web con diseño **cyberpunk glassmorphism** — estética oscura, neones cyan + gold, scanlines, mesh backgrounds, Server Components por defecto, animaciones con Framer Motion.
 
 ---
 
 ### 🔐 Bitwarden Vault
-[![Status](https://img.shields.io/badge/Status-Deployed-00E5FF?style=flat-square)](https://github.com/Juarman32)
 
-Gestor de contraseñas self-hosted con **Vaultwarden** sobre Docker en LXC. Nginx con SSL auto-firmado, Fail2ban, rate limiting. Backups diarios automáticos con retención de 7 días. Integración nativa con Hermes Agent vía CLI + plugin.
+![Status](https://img.shields.io/badge/Status-Deployed-00E5FF?style=flat-square)
+
+Gestor de contraseñas self-hosted con **Vaultwarden** sobre Docker en LXC. Nginx con SSL, Fail2ban, rate limiting. Backups diarios automáticos (zstd, 7 días de retención). Integración nativa con Hermes Agent vía CLI + plugin.
 
 ---
 
 ### 📡 VPN Streaming Guide
-[![Status](https://img.shields.io/badge/Status-Documented-00E5FF?style=flat-square)](https://github.com/Juarman32)
+
+![Status](https://img.shields.io/badge/Status-Documented-00E5FF?style=flat-square)
 
 Guía de infraestructura VPN para streaming — documentación completa con stack networking, configuración de túneles, y optimización para acceso geográfico.
 
 ---
 
-## 🤖 Automatización con IA
+## 🤖 Multi-Agente Kanban
 
-Mi equipo de **5 agentes autónomos** trabajando en un tablero Kanban:
+Mi equipo de **5 agentes de IA autónomos** trabajando en tablero Kanban:
 
 | Agente | Rol | Especialidad |
 |---|---|---|
 | 🧙 **Merovingio** | Investigador | Análisis tecnológico, viabilidad, mejores prácticas |
-| 🏛️ **Arquitecto** | Diseñador | Estructura del proyecto, stack técnico, arquitectura |
-| 🔨 **Constructor** | Developer | Implementación, código, tests, documentación |
-| 🔍 **Revisor** | QA Engineer | Code review, seguridad, rendimiento, calidad |
-| ✅ **Verificador** | Aprobador | Veredicto final, requisitos cumplidos, ZIP de entrega |
+| 🏛️ **Arquitecto** | Diseñador | Estructura, stack técnico, arquitectura |
+| 🔨 **Constructor** | Developer | Implementación, código, tests, docs |
+| 🔍 **Revisor** | QA Engineer | Code review, seguridad, rendimiento |
+| ✅ **Verificador** | Aprobador | Veredicto final, ZIP de entrega |
 
-**Flujo:** `research → design → build → review → verify → deploy`
+**Pipeline:** `research → design → build → review → verify → deploy`
 
-Todo orquestado desde **Hermes Agent** con notificaciones vía Telegram.
-
----
-
-## 🎨 Diseño
-
-Mi seña de identidad visual:
-
-<table>
-<tr>
-<td>
-
-```
-┌──────────────────────────────────┐
-│  🌑 bg:        #06060c           │
-│  💎 cyan:      #00E5FF           │
-│  🥇 gold:      #D4AF37           │
-│  🧊 glass:     backdrop-blur     │
-│  📝 fonts:     Inter + JetBrains │
-│  🌐 mesh:      subtle gradient   │
-│  📟 scanline:  overlay 5%        │
-└──────────────────────────────────┘
-```
-
-</td>
-<td>
-
-- **Dark mode** siempre — `#06060c` de fondo
-- **Glassmorphism** con `backdrop-filter: blur()`
-- **Neones** cyan + gold sobre fondos oscuros
-- **Fuentes**: Inter para UI, JetBrains Mono para código
-- **Nunca Bootstrap** — diseño custom moderno
-- **Animaciones** sutiles, sin excesos
-
-</td>
-</tr>
-</table>
+Orquestado desde **Hermes Agent** con notificaciones vía Telegram.
 
 ---
 
-## 📊 Estadísticas
+## 🎨 Design System
 
-<div align="center">
+| Token | Value |
+|---|---|
+| 🌑 Background | `#06060c` |
+| 💎 Cyan | `#00E5FF` |
+| 🥇 Gold | `#D4AF37` |
+| 🧊 Glass | `backdrop-filter: blur()` |
+| 📝 Fonts | Inter (UI) + JetBrains Mono (code) |
+| 🌐 Mesh | Subtle gradient background |
+| 📟 Scanline | 5% overlay |
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Juarman32&show_icons=true&theme=tokyonight&hide_border=true&bg_color=06060c&title_color=00E5FF&icon_color=D4AF37&text_color=888888)](https://github.com/Juarman32)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Juarman32&layout=compact&theme=tokyonight&hide_border=true&bg_color=06060c&title_color=00E5FF&text_color=888888)](https://github.com/Juarman32)
-
-</div>
-
----
-
-## 🔗 Enlaces
-
-[![GitHub](https://img.shields.io/badge/GitHub-Juarman32-00E5FF?style=for-the-badge&logo=github)](https://github.com/Juarman32)
-[![Proxmox](https://img.shields.io/badge/Proxmox-zanarkand-E57000?style=for-the-badge&logo=proxmox)](https://www.proxmox.com/)
+**Reglas:** Dark mode siempre · Glassmorphism · Nunca Bootstrap · Animaciones sutiles · Diseño moderno y pulido
 
 ---
 
-<div align="center">
+## 📊 Stats
 
-### 💬 *"How to learn about everything."*
+<p align="center">
+  <a href="https://github.com/Juarman32">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Juarman32&show_icons=true&theme=tokyonight&hide_border=true&bg_color=06060c&title_color=00E5FF&icon_color=D4AF37&text_color=888888" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Juarman32&layout=compact&theme=tokyonight&hide_border=true&bg_color=06060c&title_color=00E5FF&text_color=888888" />
+  </a>
+</p>
 
-🐧 **Sys Admin · Ciberseguridad · Open Source · Automatización · Self-Hosting** 🔐
+---
 
-</div>
+<p align="center">
+  <samp>
+    <a href="https://github.com/Juarman32">github</a> ·
+    <a href="https://www.proxmox.com/">proxmox</a>
+  </samp>
+</p>
+
+<p align="center">
+  <samp><i>"How to learn about everything."</i></samp>
+</p>
+
+<p align="center">
+  <samp>🐧 Sys Admin · Ciberseguridad · Open Source · Automatización · Self-Hosting 🔐</samp>
+</p>
