@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <samp>Barcelona 🇪🇸 · Canary Islands 🌴</samp>
+  <samp> 🇪🇸 · In the middle of the sea 🌴</samp>
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@ Mi laboratorio es un **Proxmox VE** donde virtualizo mi propio ecosistema: conte
 
 ### 🖥️ Proxmox VE — `zanarkand`
 
-> Hipervisor principal · `192.168.88.10`
+> Hipervisor principal ·
 
 | ID | Hostname | Rol | Stack |
 |---|---|---|---|
