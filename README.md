@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <em>Infraestructura propia, decisiones medidas y poca fe en el software que no puedo auditar.</em>
+  <em>Infraestructura propia, decisiones medidas y nada que no pueda revertir.</em>
 </p>
 
 <p align="center">
@@ -14,42 +14,38 @@
   <img src="https://img.shields.io/badge/Cloudflare-161B22?style=flat-square&logo=cloudflare&logoColor=8B949E&labelColor=0D1117" />
   <br />
   <img src="https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=8B949E&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=8B949E&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/Rust-161B22?style=flat-square&logo=rust&logoColor=8B949E&labelColor=0D1117" />
   <img src="https://img.shields.io/badge/C%23_%2F_.NET-161B22?style=flat-square&logo=dotnet&logoColor=8B949E&labelColor=0D1117" />
   <img src="https://img.shields.io/badge/C%2B%2B-161B22?style=flat-square&logo=cplusplus&logoColor=8B949E&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Rust-161B22?style=flat-square&logo=rust&logoColor=8B949E&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=8B949E&labelColor=0D1117" />
 </p>
 
 ---
 
 ## whoami
 
-Soy Juarman. Administro sistemas, rompo los míos para entenderlos y los vuelvo a levantar cuando ya sé exactamente por qué fallaban.
+Soy Juarman. Trabajo en sistemas: los monto, los rompo y los vuelvo a levantar cuando ya sé por qué fallaban.
 
-Mi día a día es infraestructura: un hipervisor Proxmox, contenedores LXC y Docker, proxies inversos, backups que de verdad restauran y una VPN que cierra la puerta desde fuera. No es un laboratorio de juguete: es lo que sostiene mis servicios, mi gestor de contraseñas y los agentes de IA que me echan una mano.
+Mi terreno es Windows por dentro —shell, servicios, arranque, controladores— y la infraestructura que hay detrás: un hipervisor Proxmox, contenedores, proxy inverso, copias que de verdad restauran y una VPN que cierra la puerta desde fuera.
 
-No vengo de un CV lleno de certificados. Vengo de haber roto algo a las dos de la mañana, arreglarlo y escribir después qué había pasado para no repetirlo.
+No tengo un CV de certificados. Tengo un historial de sesiones, un vault con lo aprendido y un puñado de herramientas propias que uso todos los días.
 
 ---
 
 ## cómo trabajo
 
-Cuatro reglas que me ahorran disgustos:
-
-| Principio | Lo que significa |
+| Principio | Qué significa |
 |---|---|
-| **Primero mido, después toco** | Ningún cambio se justifica con «debería ir mejor». Se justifica con números de antes y de después. |
-| **Si no es reversible, no es un cambio** | Punto de restauración, copia del archivo, la versión anterior al lado. Volver atrás tiene que seguir siendo posible. |
+| **Primero mido, después toco** | Un cambio se justifica con números de antes y de después, no con una impresión. |
+| **Si no es reversible, no es un cambio** | Copia, punto de restauración o la versión anterior al lado. Volver atrás tiene que seguir siendo posible. |
 | **Prefiero lo pequeño a lo completo** | Una herramienta que entiendo entera vale más que una suite de la que uso el 5 %. |
-| **Lo que no está escrito, no existe** | Cada decisión y cada error acaban documentados. Sobre todo los errores. |
-
-> *Vibe coding sí, pero con recibo: la IA acelera la primera versión; la segunda la escribe la medición.*
+| **Documento el error, no solo la solución** | Lo que no está escrito se repite. |
 
 ---
 
 ## el laboratorio
 
-Un hipervisor, un puñado de contenedores y una norma: cada servicio con un trabajo claro y una forma de volver atrás.
+Un hipervisor, cinco contenedores y una norma: cada servicio con un trabajo claro y una forma de volver atrás.
 
 | Contenedor | Qué corre dentro |
 |---|---|
@@ -57,7 +53,7 @@ Un hipervisor, un puñado de contenedores y una norma: cada servicio con un trab
 | `tunnel` | Cloudflare Tunnel: servicios publicados sin abrir un solo puerto |
 | `utils` | PriceBuddy, ChangeDetection y las herramientas OSINT |
 | `vpn` | pasarela VPN para salida y entrada cifrada |
-| `vault` | Vaultwarden con backups comprimidos y retención de siete días |
+| `vault` | Vaultwarden con copias comprimidas y siete días de retención |
 
 ```text
 proxmox
@@ -65,21 +61,21 @@ proxmox
 ├── tunnel ────── cloudflare tunnel
 ├── utils ─────── pricebuddy · changedetection · osint
 ├── vpn ───────── pasarela cifrada
-└── vault ─────── vaultwarden (backup diario, 7 días)
+└── vault ─────── vaultwarden (copia diaria, 7 días)
 ```
 
-Cada contenedor tiene un propósito y un límite. Lo que no aporta, se apaga; lo que se apaga, se documenta.
+Cada servicio tiene un límite. Lo que no aporta se apaga; lo que se apaga se documenta.
 
 ---
 
 ## el equipo
 
-No trabajo solo: tengo un tablero Kanban y cinco agentes con roles fijos. Cada tarjeta entra por investigación y no sale hasta que alguien la ha revisado.
+No trabajo solo. Hay un tablero Kanban y cinco agentes con roles fijos: cada tarjeta entra por investigación y no sale hasta que alguien la ha revisado.
 
 | Rol | Qué hace |
 |---|---|
-| **Merovingio** | investiga: viabilidad, alternativas y coste real de cada opción |
-| **Arquitecto** | decide estructura, stack y, sobre todo, qué se descarta |
+| **Merovingio** | investiga: viabilidad, alternativas y coste real |
+| **Arquitecto** | decide estructura, stack y qué se descarta |
 | **Constructor** | implementa, prueba y deja el build en verde |
 | **Revisor** | audita código, seguridad y rendimiento |
 | **Desbloqueador** | rescata lo que lleva demasiado tiempo atascado |
@@ -88,33 +84,40 @@ No trabajo solo: tengo un tablero Kanban y cinco agentes con roles fijos. Cada t
 research  →  design  →  build  →  review  →  deploy
 ```
 
-El orquestador es Hermes Agent, mi propio asistente, y el tablero vive en la misma infraestructura que todo lo demás.
+El orquestador es Hermes Agent y el tablero vive en la misma infraestructura que todo lo demás. Los agentes trabajan con las mismas reglas que yo: medir, no inventar y dejar rastro.
 
 ---
 
 ## ia local
 
-16 GB de VRAM y una regla: los datos que no necesito fuera de casa, no salen.
+16 GB de VRAM y una regla: lo que no necesita salir de casa, no sale.
 
-- **llama.cpp** compilado contra Vulkan, con modelos GGUF en cuantizaciones agresivas.
+- **llama.cpp** compilado contra Vulkan, con modelos GGUF en cuantizaciones ajustadas.
 - **Modelos MoE con offload parcial**: la parte caliente en VRAM, el resto en RAM.
 - Un **router propio con watchdog** que decide qué motor atiende cada petición.
-- Experimentos con motores alternativos cuando prometen más tokens por vatio. Y medición para comprobarlo.
+- **Comparación A/B de motores** antes de cambiar nada: la última migración dio un 10 % más de velocidad y se quedó por eso, no por novedad.
 
-La IA local no es una demo: es la razón por la que puedo trabajar con datos que no subiría a una API.
+La IA local no es una demo. Es la razón por la que puedo trabajar con datos que no subiría a una API.
 
 ---
 
 ## proyectos
 
-| Proyecto | Qué es | Stack |
+| Proyecto | Qué resuelve | Stack |
 |---|---|---|
-| **Hermes Agent** | orquestador con agentes, tablero Kanban y plugins propios, incluido REA para ingeniería inversa (Ghidra, Frida, rizin) | Python · MCP |
-| **Lumen** | estudio de fondos de pantalla procedurales: genera, previsualiza y exporta | C# / .NET |
-| **StartRed** | recolorea el orbe de Inicio y la barrita del taskbar de Windows 11 desde dentro del shell | C++ · DLL · hooks |
-| **NZXT Lite** | control del RGB de NZXT por HID, con los efectos en el firmware del controlador: 2 MB y 0 % de CPU en reposo | C# / .NET |
-| **Sapientia** | plataforma OSINT autoalojada: recolección, correlación y paneles | Docker · Python |
-| **ShiftPlanner** | cuadrantes de turnos rotativos con festivos, bajas y reglas de planificación; 100 % en el navegador, sin backend | React 19 · sql.js · IndexedDB |
+| **StartRed** | Color propio en los dos elementos del shell que Windows no deja tocar: el logo de Inicio y la barrita de app abierta | C++/WinRT · C# |
+| **Lumen** | Estudio de fondos procedurales: genera, previsualiza y exporta | C# / .NET |
+| **granalume** | Reconstrucción 1:1 de una app de fondos de la Store, medida contra el original | Python · pywebview · PyInstaller |
+| **NZXT Lite** | RGB de NZXT por HID, con los efectos en el firmware; sustituye a CAM | C# · NativeAOT |
+| **TaskbarMono** | Pack de iconos monocromos y un vigilante que transforma cualquier app anclada | Python · ICO |
+| **SplashLite** | Overlay de arranque que tapa el escritorio desnudo y se funde cuando todo ha cargado | Win32 · GDI+ |
+| **SoundDeck Replacement** | Reemplazo de la app abandonada de mi micrófono, con captura WASAPI | C# · APO |
+| **Win2Linux** | Inventaría el equipo, clasifica aplicaciones y prepara la migración con copias verificadas | Python · Rust |
+| **FastSize** | Mide tamaños leyendo la MFT de NTFS en crudo, sin recorrer carpetas | C# · Win32 |
+
+**En pausa, sin repositorio público todavía:** un planificador de turnos en React y un stack OSINT autoalojado, ambos de julio. Están, pero no los presento como vivos.
+
+**Herramientas, no proyectos propios:** REA (Ghidra + MCP) y Craft Anything los uso para analizar software ajeno; el código no es mío.
 
 ---
 
@@ -123,9 +126,11 @@ La IA local no es una demo: es la razón por la que puedo trabajar con datos que
 ```text
 sistemas      proxmox · lxc · docker · systemd · zfs · nginx
 red           cloudflare tunnel · wireguard · dns · firewalls
-lenguajes     python · typescript · rust · c# · c++ · sql
+lenguajes     python · c# · c++ · typescript · rust · sql
+windows       win32 · winrt · hooks · xaml · ntfs/mft · tareas programadas
+hardware      timings de ram · bios · temperaturas · memtest
 ia            llama.cpp · gguf · moe · rag · mcp
-herramientas  ghidra · frida · rizin · git · obsidian
+análisis      ghidra · rea · frida · rizin · cdp
 ```
 
 ---
@@ -146,17 +151,15 @@ Vengo del neón y del glassmorphism. Sigo usando el mismo negro, pero cada vez m
 
 ## ahora
 
-Cosas que estoy tocando estos meses:
-
 - Afinar la IA local: cuantizaciones, offload y un router que elija motor sin que yo tenga que pensarlo.
-- Quitar de mi PC el último software de fabricante que sigue pidiendo más de lo que da.
-- Llevar todo a la medición: temperaturas, latencias, tokens por segundo y vatios. Lo que no se mide, no se mejora.
+- Quitar del PC el último software de fabricante que pide más de lo que da.
+- Llevar todo a la medición: temperaturas, latencias, tokens por segundo y vatios.
 
 ---
 
 ## fuera de la terminal
 
-Guitarra eléctrica y amplificadores simulados: tengo una carpeta de presets que va de Mägo de Oz a System of a Down. Algún RPG de mundo abierto cuando el día ha sido largo. Y un vault de Obsidian donde acaba todo lo que aprendo, incluso lo que preferiría olvidar.
+Guitarra eléctrica y amplificadores simulados, con una carpeta de presets que va del metal español al rock alternativo. Algún juego de mundo abierto y algún emulador cuando el día ha sido largo. Y un vault de Obsidian donde acaba todo lo que aprendo.
 
 ---
 
