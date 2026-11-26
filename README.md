@@ -1,186 +1,165 @@
+<div align="center">
+  <img src="assets/hero.svg" alt="Juarman — sysadmin, homelab y ciberseguridad" width="100%" />
+</div>
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=JUARMAN;Sys+Admin+%7C+Ciberseguridad;Automatizaci%C3%B3n+%7C+Self-Hosting;Vibe+Coding+Enjoyer+%F0%9F%8E%B8" alt="Typing SVG" />
+  <em>Infraestructura propia, decisiones medidas y poca fe en el software que no puedo auditar.</em>
 </p>
 
 <p align="center">
-  <samp> 🇪🇸 · In the middle of the sea 🌴</samp>
+  <img src="https://img.shields.io/badge/Proxmox-161B22?style=flat-square&logo=proxmox&logoColor=8B949E&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Docker-161B22?style=flat-square&logo=docker&logoColor=8B949E&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=8B949E&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Nginx-161B22?style=flat-square&logo=nginx&logoColor=8B949E&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Cloudflare-161B22?style=flat-square&logo=cloudflare&logoColor=8B949E&labelColor=0D1117" />
+  <br />
+  <img src="https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=8B949E&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=8B949E&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Rust-161B22?style=flat-square&logo=rust&logoColor=8B949E&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/C%23_%2F_.NET-161B22?style=flat-square&logo=dotnet&logoColor=8B949E&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/C%2B%2B-161B22?style=flat-square&logo=cplusplus&logoColor=8B949E&labelColor=0D1117" />
 </p>
 
-<p align="center">
-  <a href="https://www.proxmox.com/"><img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" /></a>
-  <a href="https://docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /></a>
-  <a href="https://nginx.org"><img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" /></a>
-  <a href="https://kernel.org"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /></a>
-  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /></a>
-  <a href="https://typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" /></a>
-  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" /></a>
-  <a href="https://rust-lang.org"><img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" /></a>
-</p>
+---
+
+## whoami
+
+Soy Juarman. Administro sistemas, rompo los míos para entenderlos y los vuelvo a levantar cuando ya sé exactamente por qué fallaban.
+
+Mi día a día es infraestructura: un hipervisor Proxmox, contenedores LXC y Docker, proxies inversos, backups que de verdad restauran y una VPN que cierra la puerta desde fuera. No es un laboratorio de juguete: es lo que sostiene mis servicios, mi gestor de contraseñas y los agentes de IA que me echan una mano.
+
+No vengo de un CV lleno de certificados. Vengo de haber roto algo a las dos de la mañana, arreglarlo y escribir después qué había pasado para no repetirlo.
 
 ---
 
-## 🧠 Filosofía
+## cómo trabajo
 
-> *"No describas lo que harías. Hazlo. Si falla, reconstrúyelo desde cero. Si funciona, que sea limpio, rápido y bonito."*
+Cuatro reglas que me ahorran disgustos:
 
-Soy un **Sys Admin en formación** obsesionado con la automatización, la infraestructura self-hosted y la ciberseguridad. Creo en el **modo YOLO**: máxima autonomía, mínima fricción. Mis proyectos no se planean eternamente — se construyen, se rompen, se arreglan y se despliegan.
-
-### 🎸 Vibe Coding Enjoyer
-
-Soy un firme defensor del **vibe coding**. ¿Documentación? La justa. ¿Planificación? Un README y pa'lante. Mi flujo de trabajo consiste en abrir el editor, poner música, y dejar que el código fluya como si fuese jazz — a veces suena glorioso, a veces es ruido, pero siempre es auténtico.
-
-> *"El 90% de mis commits son `fix: lol`, `feat: vibes`, y `chore: esto no debería funcionar pero funciona`. El otro 10% son reverts de los primeros."*
-
-Si el código compila a la primera, desconfío. Si tuve que hacer `git reset --hard` 3 veces antes del PR final, entonces sé que el proyecto va por buen camino.
-
-**Principios del Vibe Coding según juarman:**
-
-- 🚀 `git push --force` no es un bug, es un estilo de vida
-- 🎯 Si funciona, no lo toques... demasiado
-- 🧪 Testear en producción es la única forma de saber si realmente funciona
-- 📝 Los comentarios son para los débiles (el código se explica solo... o no)
-- 🤖 Si una IA puede escribirlo en 30s, ¿para qué pasar 3h haciéndolo a mano?
-
-Mi laboratorio es un **Proxmox VE** donde virtualizo mi propio ecosistema: contenedores Docker, VMs con GPU passthrough, reverse proxies con Nginx, stacks LAMP/MEAN, y un equipo de **agentes de IA autónomos** que trabajan para mí en un tablero Kanban.
-
----
-
-## 🏗️ Infraestructura
-
-### 🖥️ Proxmox VE — `zanarkand`
-
-> Hipervisor principal ·
-
-| ID | Hostname | Rol | Stack |
-|---|---|---|---|
-| **CT 100** | `hermes-agent` | IA + Automatización | Docker |
-| **CT 103** | `sapientia-osint` | OSINT Platform | OSIRIS, SpiderFoot |
-| **CT 110** | `bitwarden-vault` | Password Manager | Vaultwarden, Nginx, SSL |
-| **VM 200** | `cachyos-gaming` | Gaming + GPU | 8GB, GPU Passthrough |
-
-### 🔧 Stack
-
-```
-Nginx Reverse Proxy (SSL · Fail2ban · Rate Limit)
-├── Docker Compose
-├── Proxmox LXC Containers
-├── Hermes Agent (IA + Multi-Agente Kanban)
-└── Python · TypeScript · React · Rust
-```
-
----
-
-## 🚀 Proyectos
-
-### 🕵️ Sapientia OSINT
-
-![Status](https://img.shields.io/badge/Status-Active-00E5FF?style=flat-square)
-![Stack](https://img.shields.io/badge/Stack-Docker_|_Python_|_Nginx-D4AF37?style=flat-square)
-
-Plataforma de inteligencia de fuentes abiertas auto-hospedada. Integra **SpiderFoot**, **OSIRIS**, y APIs OSINT para recolección y análisis de datos.
-
-```
-osiris/      → Framework OSINT principal
-spiderfoot/  → Automatización de reconocimiento
-tools/       → API OSINT interna
-```
-
----
-
-### 📊 ShiftPlanner
-
-![Status](https://img.shields.io/badge/Status-Completed-00E5FF?style=flat-square)
-![Stack](https://img.shields.io/badge/Stack-Vite_|_React_19_|_sql.js_|_Zustand-D4AF37?style=flat-square)
-
-Aplicación web de gestión de cuadrantes laborales con turnos rotativos, vacaciones, bajas, festivos y reglas complejas de planificación. 100% client-side — **sql.js + IndexedDB** sin backend.
-
-- ✅ 24/24 tests pasando
-- ✅ Build de producción ~472KB
-- ✅ Modo offline-first auto-contenido
-
----
-
-### 🌐 Nexus Feed
-
-![Status](https://img.shields.io/badge/Status-In_Progress-00E5FF?style=flat-square)
-![Stack](https://img.shields.io/badge/Stack-Next.js_|_Framer_Motion_|_TypeScript-D4AF37?style=flat-square)
-
-Proyecto web con diseño **cyberpunk glassmorphism** — estética oscura, neones cyan + gold, scanlines, mesh backgrounds, Server Components por defecto, animaciones con Framer Motion.
-
----
-
-### 🔐 Bitwarden Vault
-
-![Status](https://img.shields.io/badge/Status-Deployed-00E5FF?style=flat-square)
-
-Gestor de contraseñas self-hosted con **Vaultwarden** sobre Docker en LXC. Nginx con SSL, Fail2ban, rate limiting. Backups diarios automáticos (zstd, 7 días de retención). Integración nativa con Hermes Agent vía CLI + plugin.
-
----
-
-### 📡 VPN Streaming Guide
-
-![Status](https://img.shields.io/badge/Status-Documented-00E5FF?style=flat-square)
-
-Guía de infraestructura VPN para streaming — documentación completa con stack networking, configuración de túneles, y optimización para acceso geográfico.
-
----
-
-## 🤖 Multi-Agente Kanban
-
-Mi equipo de **5 agentes de IA autónomos** trabajando en tablero Kanban:
-
-| Agente | Rol | Especialidad |
-|---|---|---|
-| 🧙 **Merovingio** | Investigador | Análisis tecnológico, viabilidad, mejores prácticas |
-| 🏛️ **Arquitecto** | Diseñador | Estructura, stack técnico, arquitectura |
-| 🔨 **Constructor** | Developer | Implementación, código, tests, docs |
-| 🔍 **Revisor** | QA Engineer | Code review, seguridad, rendimiento |
-| ✅ **Verificador** | Aprobador | Veredicto final, ZIP de entrega |
-
-**Pipeline:** `research → design → build → review → verify → deploy`
-
-Orquestado desde **Hermes Agent** con notificaciones vía Telegram.
-
----
-
-## 🎨 Design System
-
-| Token | Value |
+| Principio | Lo que significa |
 |---|---|
-| 🌑 Background | `#06060c` |
-| 💎 Cyan | `#00E5FF` |
-| 🥇 Gold | `#D4AF37` |
-| 🧊 Glass | `backdrop-filter: blur()` |
-| 📝 Fonts | Inter (UI) + JetBrains Mono (code) |
-| 🌐 Mesh | Subtle gradient background |
-| 📟 Scanline | 5% overlay |
+| **Primero mido, después toco** | Ningún cambio se justifica con «debería ir mejor». Se justifica con números de antes y de después. |
+| **Si no es reversible, no es un cambio** | Punto de restauración, copia del archivo, la versión anterior al lado. Volver atrás tiene que seguir siendo posible. |
+| **Prefiero lo pequeño a lo completo** | Una herramienta que entiendo entera vale más que una suite de la que uso el 5 %. |
+| **Lo que no está escrito, no existe** | Cada decisión y cada error acaban documentados. Sobre todo los errores. |
 
-**Reglas:** Dark mode siempre · Glassmorphism · Nunca Bootstrap · Animaciones sutiles · Diseño moderno y pulido
+> *Vibe coding sí, pero con recibo: la IA acelera la primera versión; la segunda la escribe la medición.*
 
 ---
 
-## 📊 Stats
+## el laboratorio
 
-<p align="center">
-  <a href="https://github.com/Juarman32">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Juarman32&show_icons=true&theme=tokyonight&hide_border=true&bg_color=06060c&title_color=00E5FF&icon_color=D4AF37&text_color=888888" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Juarman32&layout=compact&theme=tokyonight&hide_border=true&bg_color=06060c&title_color=00E5FF&text_color=888888" />
-  </a>
-</p>
+Un hipervisor, un puñado de contenedores y una norma: cada servicio con un trabajo claro y una forma de volver atrás.
+
+| Contenedor | Qué corre dentro |
+|---|---|
+| `docker` | Hermes Agent, Portainer y la pila de observabilidad (Promtail + Loki) |
+| `tunnel` | Cloudflare Tunnel: servicios publicados sin abrir un solo puerto |
+| `utils` | PriceBuddy, ChangeDetection y las herramientas OSINT |
+| `vpn` | pasarela VPN para salida y entrada cifrada |
+| `vault` | Vaultwarden con backups comprimidos y retención de siete días |
+
+```text
+proxmox
+├── docker ────── hermes · portainer · loki
+├── tunnel ────── cloudflare tunnel
+├── utils ─────── pricebuddy · changedetection · osint
+├── vpn ───────── pasarela cifrada
+└── vault ─────── vaultwarden (backup diario, 7 días)
+```
+
+Cada contenedor tiene un propósito y un límite. Lo que no aporta, se apaga; lo que se apaga, se documenta.
+
+---
+
+## el equipo
+
+No trabajo solo: tengo un tablero Kanban y cinco agentes con roles fijos. Cada tarjeta entra por investigación y no sale hasta que alguien la ha revisado.
+
+| Rol | Qué hace |
+|---|---|
+| **Merovingio** | investiga: viabilidad, alternativas y coste real de cada opción |
+| **Arquitecto** | decide estructura, stack y, sobre todo, qué se descarta |
+| **Constructor** | implementa, prueba y deja el build en verde |
+| **Revisor** | audita código, seguridad y rendimiento |
+| **Desbloqueador** | rescata lo que lleva demasiado tiempo atascado |
+
+```text
+research  →  design  →  build  →  review  →  deploy
+```
+
+El orquestador es Hermes Agent, mi propio asistente, y el tablero vive en la misma infraestructura que todo lo demás.
+
+---
+
+## ia local
+
+16 GB de VRAM y una regla: los datos que no necesito fuera de casa, no salen.
+
+- **llama.cpp** compilado contra Vulkan, con modelos GGUF en cuantizaciones agresivas.
+- **Modelos MoE con offload parcial**: la parte caliente en VRAM, el resto en RAM.
+- Un **router propio con watchdog** que decide qué motor atiende cada petición.
+- Experimentos con motores alternativos cuando prometen más tokens por vatio. Y medición para comprobarlo.
+
+La IA local no es una demo: es la razón por la que puedo trabajar con datos que no subiría a una API.
+
+---
+
+## proyectos
+
+| Proyecto | Qué es | Stack |
+|---|---|---|
+| **Hermes Agent** | orquestador con agentes, tablero Kanban y plugins propios, incluido REA para ingeniería inversa (Ghidra, Frida, rizin) | Python · MCP |
+| **Lumen** | estudio de fondos de pantalla procedurales: genera, previsualiza y exporta | C# / .NET |
+| **StartRed** | recolorea el orbe de Inicio y la barrita del taskbar de Windows 11 desde dentro del shell | C++ · DLL · hooks |
+| **NZXT Lite** | control del RGB de NZXT por HID, con los efectos en el firmware del controlador: 2 MB y 0 % de CPU en reposo | C# / .NET |
+| **Sapientia** | plataforma OSINT autoalojada: recolección, correlación y paneles | Docker · Python |
+| **ShiftPlanner** | cuadrantes de turnos rotativos con festivos, bajas y reglas de planificación; 100 % en el navegador, sin backend | React 19 · sql.js · IndexedDB |
+
+---
+
+## stack
+
+```text
+sistemas      proxmox · lxc · docker · systemd · zfs · nginx
+red           cloudflare tunnel · wireguard · dns · firewalls
+lenguajes     python · typescript · rust · c# · c++ · sql
+ia            llama.cpp · gguf · moe · rag · mcp
+herramientas  ghidra · frida · rizin · git · obsidian
+```
+
+---
+
+## criterio de diseño
+
+| Pieza | Valor |
+|---|---|
+| Fondo | `#07080B` |
+| Texto | `#F2F5F9` |
+| Acento | `#00E5FF`, uno solo y con moderación |
+| Tipografía | sistema para interfaz, monoespaciada para datos |
+| Regla | menos color, más aire. Si dudo, lo quito |
+
+Vengo del neón y del glassmorphism. Sigo usando el mismo negro, pero cada vez me interesa más lo que no se ve: jerarquía, contraste y espacio.
+
+---
+
+## ahora
+
+Cosas que estoy tocando estos meses:
+
+- Afinar la IA local: cuantizaciones, offload y un router que elija motor sin que yo tenga que pensarlo.
+- Quitar de mi PC el último software de fabricante que sigue pidiendo más de lo que da.
+- Llevar todo a la medición: temperaturas, latencias, tokens por segundo y vatios. Lo que no se mide, no se mejora.
+
+---
+
+## fuera de la terminal
+
+Guitarra eléctrica y amplificadores simulados: tengo una carpeta de presets que va de Mägo de Oz a System of a Down. Algún RPG de mundo abierto cuando el día ha sido largo. Y un vault de Obsidian donde acaba todo lo que aprendo, incluso lo que preferiría olvidar.
 
 ---
 
 <p align="center">
-  <samp>
-    <a href="https://github.com/Juarman32">github</a> ·
-    <a href="https://www.proxmox.com/">proxmox</a>
-  </samp>
-</p>
-
-<p align="center">
-  <samp><i>"How to learn about everything."</i></samp>
-</p>
-
-<p align="center">
-  <samp>🐧 Sys Admin · Ciberseguridad · Open Source · Automatización · Self-Hosting 🔐</samp>
+  <samp>«How to learn about everything.»</samp>
 </p>
