@@ -31,7 +31,7 @@
       @keyframes sweep { 0%, 62% { transform: translateX(-260px); } 82%, 100% { transform: translateX(760px); } }
 
       .packet { animation: packet 9s cubic-bezier(.45,0,.55,1) infinite alternate; }
-      @keyframes packet { from { transform: translateY(0); } to { transform: translateY(180px); } }
+      @keyframes packet { from { transform: translateY(0); } to { transform: translateY(148px); } }
     </style>
   </defs>
 
@@ -45,7 +45,7 @@
 
   <!-- etiqueta -->
   <circle cx="76" cy="92" r="3" fill="#00E5FF"/>
-  <text class="mono" x="90" y="96" font-size="10.5" fill="#6F7889" letter-spacing="3.2">SYSADMIN · SELF-HOSTED</text>
+  <text class="mono" x="91" y="97" font-size="13" fill="#7C8598" letter-spacing="2.8">SYSADMIN · SELF-HOSTED</text>
 
   <!-- nombre -->
   <text class="sans" x="72" y="170" font-size="66" font-weight="300" letter-spacing="11" fill="#F2F5F9">JUARMAN<tspan class="mono" dx="18" font-size="29" font-weight="500" letter-spacing="2" fill="#00E5FF">32</tspan></text>
@@ -56,38 +56,39 @@
   <line x1="72" y1="200" x2="176" y2="200" stroke="#00E5FF" stroke-opacity="0.85" stroke-width="1.4"/>
 
   <!-- subtitulo -->
-  <text class="mono" x="72" y="230" font-size="11.5" fill="#8A93A4" letter-spacing="4.4">INFRAESTRUCTURA · AUTOMATIZACIÓN · CIBERSEGURIDAD</text>
+  <text class="mono" x="72" y="231" font-size="13" fill="#8A93A4" letter-spacing="3.9">INFRAESTRUCTURA · AUTOMATIZACIÓN · CIBERSEGURIDAD</text>
 
   <!-- frase -->
-  <text class="serif" x="72" y="270" font-size="16.5" font-style="italic" fill="#97A0B2">«Si no lo puedo medir, no lo puedo arreglar.»</text>
+  <text class="serif" x="72" y="272" font-size="18" font-style="italic" fill="#97A0B2">«Si no lo puedo medir, no lo puedo arreglar.»</text>
 
   <!-- ficha derecha -->
   <g>
-    <line x1="900" y1="92" x2="900" y2="300" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <line x1="900" y1="120" x2="900" y2="290" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <line x1="896.5" y1="290" x2="903.5" y2="290" stroke="#FFFFFF" stroke-opacity="0.20"/>
 
-    <g class="mono" font-size="10" letter-spacing="2.4" fill="#7C8598">
-      <text x="920" y="96">proxmox</text>
-      <text x="920" y="152">docker</text>
-      <text x="920" y="208">hermes</text>
-      <text x="920" y="264">ia local</text>
+    <g class="mono" font-size="12.5" letter-spacing="1.8" fill="#7C8598">
+      <text x="920" y="124">proxmox</text>
+      <text x="920" y="180">docker</text>
+      <text x="920" y="236">hermes</text>
+      <text x="920" y="292">ia local</text>
     </g>
 
     <g fill="#0A0C12" stroke="#FFFFFF" stroke-opacity="0.28">
-      <circle cx="900" cy="92" r="3.2"/>
-      <circle cx="900" cy="148" r="3.2"/>
-      <circle cx="900" cy="204" r="3.2"/>
-      <circle cx="900" cy="260" r="3.2"/>
+      <circle cx="900" cy="120" r="3.2"/>
+      <circle cx="900" cy="176" r="3.2"/>
+      <circle cx="900" cy="232" r="3.2"/>
+      <circle cx="900" cy="288" r="3.2"/>
     </g>
-    <circle cx="900" cy="92" r="3.2" fill="#00E5FF" stroke="none"/>
+    <circle cx="900" cy="120" r="3.2" fill="#00E5FF" stroke="none"/>
 
     <!-- paquete -->
     <g class="packet">
-      <circle cx="900" cy="110" r="2.4" fill="#00E5FF"/>
-      <rect x="899.2" y="86" width="1.6" height="26" fill="url(#packet)"/>
+      <circle cx="900" cy="138" r="2.4" fill="#00E5FF"/>
+      <rect x="899.2" y="114" width="1.6" height="26" fill="url(#packet)"/>
     </g>
   </g>
 
   <!-- pie -->
-  <text class="mono" x="72" y="336" font-size="9.5" fill="#5A6375" letter-spacing="2.4">MEDITERRÁNEO · UTC+1</text>
-  <text class="mono" x="1128" y="336" font-size="9.5" fill="#5A6375" letter-spacing="2.4" text-anchor="end">GITHUB.COM/JUARMAN32</text>
+  <text class="mono" x="72" y="338" font-size="11.5" fill="#5F6879" letter-spacing="2">MEDITERRÁNEO · UTC+1</text>
+  <text class="mono" x="1128" y="338" font-size="11.5" fill="#5F6879" letter-spacing="2" text-anchor="end">GITHUB.COM/JUARMAN32</text>
 </svg>
